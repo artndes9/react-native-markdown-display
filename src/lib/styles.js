@@ -186,7 +186,7 @@ export const styles = {
 
   // Text Output
   text: {},
-  textgroup: {},
+  textgroup: {flexDirection: 'row', alignItems: 'flex-start'},
   paragraph: {
     marginTop: 10,
     marginBottom: 10,
