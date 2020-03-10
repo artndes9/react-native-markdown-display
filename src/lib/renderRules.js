@@ -304,9 +304,9 @@ const renderRules = {
     </Text>
   ),
   textgroup: (node, children, parent, styles) => (
-    <Text key={node.key} style={styles.textgroup}>
+    <View key={node.key} style={styles.textgroup}>
       {children}
-    </Text>
+    </View>
   ),
   paragraph: (node, children, parent, styles) => (
     <View key={node.key} style={styles._VIEW_SAFE_paragraph}>
